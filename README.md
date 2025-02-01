@@ -26,4 +26,4 @@ This code generates a depth visualization of a geographic region using raster da
 ![Figure_4_W_REGION](https://github.com/user-attachments/assets/9390a25c-f33a-429e-b0fe-829f6213e372)
 ![Figure_5_ISLAND_REGION](https://github.com/user-attachments/assets/3945167f-30cb-4f78-82a9-4710a2f51452)
 
-[Location Analysis].(https://github.com/vbarinov001/Tidal_Power_Plant_Location_Project/blob/83c0faf8af7a02ebf87e4d66f437d9b363a8013f/TPP_DATA_ANALYSIS%20DRAFT.txt).
+[Location Analysis](https://github.com/vbarinov001/Tidal_Power_Plant_Location_Project/blob/83c0faf8af7a02ebf87e4d66f437d9b363a8013f/TPP_DATA_ANALYSIS%20DRAFT.txt).
