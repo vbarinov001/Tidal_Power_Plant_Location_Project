@@ -1,0 +1,68 @@
+--------------------------------------
+Tidal Power Plant Project Data Analysis 
+---------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+1. Selecting location by MSL Trends
+-------------------------------------------------------------------------------------------------------
+Top 25 Stations Sorted by MSL Trends (mm/yr):
+          Station Name  Latitude  Longitude  MSL Trends (mm/yr)
+109     North Spit, CA   40.7669  -124.2173                5.01
+139           Nome, AK   64.4946  -165.4396                3.96
+138    Port Moller, AK   55.9858  -160.5736                3.83
+140    Prudhoe Bay, AK   70.4114  -148.5317                3.72
+4         Kawaihae, HI   20.0366  -155.8294                3.55
+5             Hilo, HI   19.7303  -155.0556                3.11
+104   Redwood City, CA   37.5068  -122.2119                2.72
+114      Garibaldi, OR   45.5545  -123.9189                2.52
+96       San Diego, CA   32.7156  -117.1767                2.23
+3          Kahului, HI   20.8949  -156.4690                2.21
+106    Point Reyes, CA   37.9942  -122.9736                2.18
+120        Seattle, WA   47.6026  -122.3393                2.08
+97        La Jolla, CA   32.8669  -117.2571                2.05
+103  San Francisco, CA   37.8063  -122.4659                1.99
+107   Port Chicago, CA   38.0560  -122.0395                1.95
+135     Sand Point, AK   55.3317  -160.5043                1.83
+119  Port Townsend, WA   48.1112  -122.7597                1.82
+0       Nawiliwili, HI   21.9544  -159.3561                1.79
+113    South Beach, OR   44.6254  -124.0449                1.78
+102       Monterey, CA   36.6089  -121.8914                1.77
+2         Mokuoloe, HI   21.4331  -157.7900                1.66
+99    Santa Monica, CA   34.0083  -118.5000                1.55
+1         Honolulu, HI   21.3033  -157.8645                1.54
+122  Friday Harbor, WA   48.5453  -123.0125                1.19
+100  Santa Barbara, CA   34.4046  -119.6925                1.15
+
+
+-------------------------------------------------------------------------------------------------------
+2. Selecting location based on Closest Power Grid (%30 weight) and MSL Trends (70% weight)
+-------------------------------------------------------------------------------------------------------
+Top 25 Stations Sorted by Combined Score:
+          Station Name  Latitude  ...  Nearest_Power_Plant_Distance_km  Combined_Score
+109     North Spit, CA   40.7669  ...                         2.885241        0.753600
+139           Nome, AK   64.4946  ...                         1.278936        0.733012
+138    Port Moller, AK   55.9858  ...                        72.002660        0.726877
+140    Prudhoe Bay, AK   70.4114  ...                        20.351368        0.727323
+4         Kawaihae, HI   20.0366  ...                        14.045654        0.724296
+5             Hilo, HI   19.7303  ...                         2.882932        0.716199
+104   Redwood City, CA   37.5068  ...                         3.063926        0.708512
+114      Garibaldi, OR   45.5545  ...                        17.962303        0.703822
+96       San Diego, CA   32.7156  ...                         2.550869        0.698893
+3          Kahului, HI   20.8949  ...                         0.691207        0.698593
+106    Point Reyes, CA   37.9942  ...                        35.120247        0.696261
+120        Seattle, WA   47.6026  ...                         6.300499        0.695750
+97        La Jolla, CA   32.8669  ...                         1.883320        0.695383
+103  San Francisco, CA   37.8063  ...                         3.524177        0.694119
+107   Port Chicago, CA   38.0560  ...                         3.902940        0.693312
+135     Sand Point, AK   55.3317  ...                         0.996467        0.691097
+119  Port Townsend, WA   48.1112  ...                         3.352105        0.690781
+0       Nawiliwili, HI   21.9544  ...                         5.103053        0.690102
+113    South Beach, OR   44.6254  ...                         9.068854        0.689705
+102       Monterey, CA   36.6089  ...                        15.172357        0.689199
+2         Mokuoloe, HI   21.4331  ...                        17.179170        0.686932
+99    Santa Monica, CA   34.0083  ...                         3.153945        0.685476
+1         Honolulu, HI   21.3033  ...                         6.773962        0.685096
+122  Friday Harbor, WA   48.5453  ...                        34.348749        0.676812
+100  Santa Barbara, CA   34.4046  ...                        15.128844        0.676997
+
+
